@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <GraphQL Include="Queries\GetSessions.graphql" />
+      <GraphQL Include="schema.extensions.graphql" />
+      <GraphQL Include="schema.graphql" />
+    </ItemGroup>
+
+</Project>
